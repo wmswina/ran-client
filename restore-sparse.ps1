@@ -18,11 +18,12 @@
 #   "GameClient.exe" -> single root-level file
 $SELECTED_ITEMS = @(
     # --- FOLDERS ---
-    # "data",
+    "data",
     # "cfg",
     # "client",
-    # "textures",
-    # "sounds",
+    "textures",
+    "sounds",
+    "vcredist",
     # "animation",
     # "effect",
     # "gui",
@@ -30,13 +31,23 @@ $SELECTED_ITEMS = @(
     # "skin",
 
     # --- FILES ---
-    # "GameClient.exe",
-    # "Launcher.exe",
-    # "minia.exe",
-    # "rlauncher.xml",
-    # "rlauncher.ini",
-    # "param.ini",
-    # "option.ini"
+    "BugTrap.dll",
+    "D3DCompiler_43.dll",
+    "d3dx9_43.dll",
+    "D3dx9d_43.dll",
+    "dbghelp.dll",
+    "ijl15.dll",
+    "Launcher.exe",
+    "mfc71.dll",
+    "minia.exe",
+    "mtd.dll",
+    "mtp.dll",
+    "netauth.dll",
+    "OneRanOnline.ico",
+    "rlauncher.xml",
+    "rlauncher.ini",
+    "param.ini",
+    "option.ini"
 )
 
 # ── CONFIG ────────────────────────────────────────────────
